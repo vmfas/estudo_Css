@@ -1,0 +1,22 @@
+/*Tipos de combinadores:
+1. Descendente (espaço)
+2. Filho (>)
+3. Irmão adjascente (+)
+4. Irmão Geral (~)
+*/
+
+.fundo-verde li{
+    background-color: lightgreen;
+}
+
+.fundo-azul li{
+    background-color: lightblue;
+}
+
+li {
+    color: red;
+}
+
+.fundo-verde #sublista-01 li {
+    color: black;
+}
