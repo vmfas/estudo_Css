@@ -33,3 +33,17 @@ div~p {
     /*Aqui ele pegou todos os paragrafos que vem depois da div (no caso os irmãos) depois da div*/
     background-color: black;
 }
+
+#p1 {
+    background-color: hsl(120, 100%, 50%);
+}
+#p2 {
+    background-color: hsl(0, 100%, 50%);
+}
+
+#p3 {
+    background-color: hsla(120, 100%, 50%, .3);
+}
+#p4 {
+    background-color: hsla(0, 100%, 50%, .2);
+}
