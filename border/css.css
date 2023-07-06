@@ -1,0 +1,29 @@
+.exemplo1 {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border-style: dashed;
+    border-width: 10px 20px 30px 40px;
+    border-color: green yellow red black;
+    border-radius: 50px/100px;
+}
+
+.exemplo2 {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border: 10px dashed red;
+    border-top: 10px solid green;
+    border-bottom: 10px solid green;
+    border-radius: 1rem 2rem 3rem 4rem;
+}
+
+.exemplo3 {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border: 10px dashed rgb(255, 0, 0);
+    border-top: 10px solid rgb(255, 255, 255);
+    border-bottom: 10px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}

@@ -1,0 +1,28 @@
+.exemplo1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border: 30px solid;
+    border-image-source: url('https://www.w3schools.com/css/border.png');
+    border-image-repeat: round space;
+    border-image-slice: 30;
+    border-image-width: 20px 30px 40px 50px;
+    border-image-outset: 1px 40px;
+}
+.exemplo2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border: 30px solid;
+    border-image-source: linear-gradient(333deg, rgba(255,0,0,1) 0%, rgba(216,0,255,1) 33%, rgba(36,0,255,1) 66%, rgba(0,255,246,1) 99%);
+    border-image-slice: 10;
+    border-image-width: 40%;
+}
+.exemplo3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border: 30px solid;
+    border-image: url('https://www.w3schools.com/css/border.png') 30 / 10px / 1px round;
+    /*source, slice, width, outset, repeat*/
+}
